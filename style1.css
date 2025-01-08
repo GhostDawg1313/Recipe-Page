@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+    @media (max-width: 1440px) {
+        .container {
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .header {
+            height: 400px;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        h2 {
+            font-size: 35px;
+        }
+
+        h3 {
+            font-size: 25px;
+        }
+
+        .time ul, .ingredients ul, .instructions ol {
+            font-size: 18px;
+        }
+
+        .nutrition-table {
+            font-size: 1.2rem;
+        }
+    }
+    @media (max-width: 375px) {
+        .container {
+            width: 100%;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .header {
+            height: 200px;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        .time ul, .ingredients ul, .instructions ol {
+            font-size: 14px;
+        }
+
+        .nutrition-table {
+            font-size: 0.9rem;
+        }
+    }
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+    margin-left: 100;
+    padding: 0;
+    font-family: Young serif,sans-serif;
+    text-align: left;
+}
+
+.container {   
+    width: 750px;
+    height: 120rem;
+    margin-top: 100px;
+    margin-left: auto;
+    padding-left: 50px;
+    margin-bottom: 100px;
+    margin-right: auto;
+    padding-right: 50px;
+    padding-top: 50px;
+    background-color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.header {
+    background-image: url('image-omelette.jpeg');
+    background-size: fill;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 5px solid #000;    
+}
+
+h1{
+    font-family: Outfit;
+    font-size: 45px;
+    font-weight: bold;
+    color: hsl(0, 0%, 0%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p{  line-height: 20px;
+    font-size: 16px;
+    color: hsl(0, 0%, 0%);
+    padding-bottom: 30px; 
+}
+
+h2{
+    margin-left: none;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: Outfit;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);   
+}
+h3{
+    color: hsl(332, 51%, 32%);
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.time {
+    background-color: hsl(340, 30%, 96%);
+    margin-top: 5;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding-left: 30px;
+    padding-right: 25px;
+    padding-bottom: none;
+    border: none;
+    ul{
+    font-size: 16px;
+    padding-bottom: 40px;
+    padding-left: 45px;
+    border-bottom: none;
+}
+    li{
+    color: hsl(332, 51%, 32%);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+
+} 
+    li span{
+        color:black;
+}
+}
+
+.ingredients{
+    ul{
+        font-size: 16px;
+        padding-left: 30px;
+        padding-bottom: 40px;
+        border-bottom: 2px solid hsl(40, 3%, 79%);
+}
+    li{
+        color: hsl(14, 45%, 36%);
+        list-style-type: square;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+}
+    li span{
+        color: black;
+} 
+}
+
+.instructions{
+    font-size: 16px;
+    padding-bottom: 1px;
+
+    ol{
+        font-weight: bold;
+        list-style-type: Young serif;
+        font-size: 16px;
+        border-bottom: 2px solid hsl(40, 3%, 79%);
+        padding-bottom: 40px;
+        padding-left: 30px;
+}
+    li{
+        color: hsl(14, 45%, 36%);  
+        padding-top: 10px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+}
+    li span{
+        color: black;
+        font-weight: normal;
+} 
+}  
+
+.nutrition-table{ 
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    color: hsl(332, 51%, 32%);
+    padding-bottom: 10px;    
+            
+}
+.nutrition-table td{
+    padding: 15px 5px;
+   
+}
+.nutrition-table td:first-child{ 
+    color: hsl(0, 0%, 0%);
+    text-align: left;
+    padding-left: 40px;
+}
+
+.nutrition-table td:last-child{
+    text-align: center;
+    font-weight: bold;
+    padding-right: 150px; 
+}
+
+tr.border_bottom td{
+    border-bottom: 2px solid hsl(40, 3%, 79%);
+}   
+ 
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+ 
+
